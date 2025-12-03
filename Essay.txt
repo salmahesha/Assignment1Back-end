@@ -1,0 +1,16 @@
+What is the difference between foreach and for..of?when would you used each?
+    1. foreach : for response run in parallel all in the same time
+    2.For...of : response run each index
+What is hoisting and what is (Temporal Dead Zone (TDZ)) ? Explain with example?
+    1. Hoisting: any declaration in java happen hoisting mean declaration hoist to the first it's scope
+    2. TDZ: area before initialize
+What are the main difference between == and === ?
+    1.== : is to check if value is equal
+    2.=== : is check value and type is equal;
+Explain how try-catch works and why it is important in async operations?
+    try-catch : try - code run first if there is error catch start
+What's the difference between type conversion and coercion ? provide example
+    1.type conversion : is you control of change from type to another
+    2.coercion : java automatic change the type by itself (Boolean -> number -> string)
+    Example : let a = "10" - 2; output-> 8 that due to coercion java change string 10 to number
+            String(123) = > "123" that type conversion developer who determine type
